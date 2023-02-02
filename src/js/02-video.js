@@ -8,3 +8,5 @@ player.on('timeupdate', throttle(function(event){
 }, 1000)) 
 
 player.setCurrentTime(JSON.parse(localStorage.getItem('videoplayer-current')))
+
+// as
