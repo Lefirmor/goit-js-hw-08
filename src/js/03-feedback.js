@@ -1,6 +1,6 @@
 import throttle from "lodash.throttle";
 const form = document.querySelector('.feedback-form');
-Obj = {}
+const Obj = {}
 const locStorKey = "feedback-form-state"
 autoFill()
 
